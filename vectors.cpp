@@ -50,4 +50,18 @@ int main() {
     for (string car: cars) {
         cout << car << "\n";
     }
+
+    // Remove the element from the end of the vector
+    cars.pop_back();
+
+    // Vector size
+    cout << cars.size() << "\n"; // returns "4"
+
+    // Is vector empty
+    cout << cars.empty() << "\n"; // returns 1 as true and 0 as false
+
+    // Loops through the vector
+    for (int i = 0; i < cars.size(); i++) {
+        cout << cars[i] << '\n';
+    }
 }
