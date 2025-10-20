@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(vector vector.cpp)
 add_executable(list list.cpp)
-
+add_executable(stack stack.cpp)
 
 
